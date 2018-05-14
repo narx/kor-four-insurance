@@ -14,7 +14,7 @@ describe('성공 테스트', function(){
       장기요양보험료: 2300
     };
 
-    const actual = fourInsurance.get4대보험_근로자부담금(신고소득월액);
+    const actual = fourInsurance.get사대보험_근로자부담금(신고소득월액);
 
     it(`급여 ${신고소득월액}의 연금보험료는 ${actual.연금보험료}원 입니다.`, function(){
       expect(actual.연금보험료).to.equal(expected.연금보험료);
