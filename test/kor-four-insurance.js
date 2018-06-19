@@ -1,7 +1,7 @@
 'use strict';
 
 var expect = require('chai').expect;
-var fourInsurance = require('../index');
+var fourInsurance = require('../index').사대보험;
 
 describe('성공 테스트', function(){
     
