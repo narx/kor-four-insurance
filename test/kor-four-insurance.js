@@ -5,13 +5,13 @@ var fourInsurance = require('../index').사대보험;
 
 describe('성공 테스트', function(){
     
-    const 신고소득월액 = 1000000;
+    const 신고소득월액 = 2900000;
 
     const expected = {
       연금보험료: 45000,
       고용보험료: 6500,
-      건강보험료: 31200,
-      장기요양보험료: 2300
+      건강보험료: 90480,
+      장기요양보험료: 6670
     };
 
     const actual = fourInsurance.get사대보험_근로자부담금(신고소득월액);
